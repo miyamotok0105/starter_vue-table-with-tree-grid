@@ -22,6 +22,12 @@ https://github.com/MisterTaki/vue-table-with-tree-grid
 
 ## Try tree table this repo
 
+
+```
+vue/cli 3.4.0
+npm 6.14.4
+```
+
 ```
 cd src
 npm install
