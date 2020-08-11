@@ -1,18 +1,21 @@
 <template>
   <div id="app">
-    <Example></Example>
+    <!-- <Example></Example> -->
+    <Example2></Example2>
 
   </div>
 </template>
 
 <script>
 
-import Example from './components/Example.vue'
+// import Example from './components/Example.vue'
+import Example2 from './components/Example2.vue'
 
 export default {
   name: 'App',
   components: {
-    Example
+    // Example,
+    Example2,
   }
 }
 </script>

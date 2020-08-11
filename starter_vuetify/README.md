@@ -1,4 +1,4 @@
-# src
+# starter_vuetify
 
 ## Project setup
 ```
