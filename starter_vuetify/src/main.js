@@ -5,6 +5,10 @@ import vuetify from './plugins/vuetify';
 import App from './App.vue'
 import Home from './components/Home'
 import Accordion from './pages/Accordion'
+import DataTable from './pages/DataTable'
+import SelectionCheckboxDataTable from './pages/SelectionCheckboxDataTable'
+import SimpleCheckbox from './pages/SimpleCheckbox'
+import SimpleCheckboxTemplate from './pages/SimpleCheckboxTemplate'
 
 Vue.use(VueRouter)
 Vue.config.productionTip = false
@@ -15,6 +19,11 @@ const router = new VueRouter({
   routes: [
     { path: '/home', name: 'home', component: Home },
     { path: '/accordion', name: 'accordion', component: Accordion },
+    { path: '/dataTable', name: 'dataTable', component: DataTable },
+    { path: '/selectionCheckboxDataTable', name: 'selectionCheckboxDataTable', component: SelectionCheckboxDataTable },
+    { path: '/simpleCheckbox', name: 'SimpleCheckbox', component: SimpleCheckbox },
+    { path: '/simpleCheckboxTemplate', name: 'simpleCheckboxTemplate', component: SimpleCheckboxTemplate },
+    
     // { path: '/bar/:id', name: 'bar', component: Bar }
   ]
 })

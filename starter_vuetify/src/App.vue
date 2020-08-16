@@ -31,13 +31,18 @@
       <v-toolbar-items class="hidden-sm-and-down">
               <v-btn flat to="/home">Home</v-btn>
               <v-btn flat to="/accordion">Accordion</v-btn>
-              <!-- <v-btn flat>Link Three</v-btn> -->
+              <v-btn flat to="/dataTable">DataTable</v-btn>
+              <v-btn flat to="/selectionCheckboxDataTable">SelectionCheckboxDataTable</v-btn>
+              <v-btn flat to="/simpleCheckbox">SimpleCheckbox</v-btn>
+              <v-btn flat to="/simpleCheckboxTemplate">SimpleCheckboxTemplate</v-btn>
+
+              
+
+              
+              
+
       </v-toolbar-items>
-
-
-
       <v-spacer></v-spacer>
-
     </v-app-bar>
 
     <v-main>

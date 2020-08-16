@@ -149,3 +149,9 @@
     }),
   }
 </script>
+
+<style lang="scss" scoped>
+.section {
+  margin-top: 50px
+}
+</style>
