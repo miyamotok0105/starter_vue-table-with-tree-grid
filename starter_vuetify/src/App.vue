@@ -35,6 +35,7 @@
               <v-btn flat to="/selectionCheckboxDataTable">SelectionCheckboxDataTable</v-btn>
               <v-btn flat to="/simpleCheckbox">SimpleCheckbox</v-btn>
               <v-btn flat to="/simpleCheckboxTemplate">SimpleCheckboxTemplate</v-btn>
+              <v-btn flat to="/treeViewDataTable">TreeViewDataTable</v-btn>
 
               
 

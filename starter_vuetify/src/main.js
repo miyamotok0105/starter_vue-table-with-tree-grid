@@ -9,6 +9,7 @@ import DataTable from './pages/DataTable'
 import SelectionCheckboxDataTable from './pages/SelectionCheckboxDataTable'
 import SimpleCheckbox from './pages/SimpleCheckbox'
 import SimpleCheckboxTemplate from './pages/SimpleCheckboxTemplate'
+import TreeViewDataTable from './pages/TreeViewDataTable'
 
 Vue.use(VueRouter)
 Vue.config.productionTip = false
@@ -23,6 +24,7 @@ const router = new VueRouter({
     { path: '/selectionCheckboxDataTable', name: 'selectionCheckboxDataTable', component: SelectionCheckboxDataTable },
     { path: '/simpleCheckbox', name: 'SimpleCheckbox', component: SimpleCheckbox },
     { path: '/simpleCheckboxTemplate', name: 'simpleCheckboxTemplate', component: SimpleCheckboxTemplate },
+    { path: '/treeViewDataTable', name: 'treeViewDataTable', component: TreeViewDataTable },
     
     // { path: '/bar/:id', name: 'bar', component: Bar }
   ]
