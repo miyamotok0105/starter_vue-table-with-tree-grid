@@ -5,6 +5,8 @@
       color="primary"
       dark
     >
+      
+
       <div class="d-flex align-center">
         <v-img
           alt="Vuetify Logo"
@@ -25,64 +27,33 @@
         />
       </div>
 
+
+      <v-toolbar-items class="hidden-sm-and-down">
+              <v-btn flat to="/home">Home</v-btn>
+              <v-btn flat to="/accordion">Accordion</v-btn>
+              <!-- <v-btn flat>Link Three</v-btn> -->
+      </v-toolbar-items>
+
+
+
       <v-spacer></v-spacer>
 
-      <v-btn
-        href="https://github.com/vuetifyjs/vuetify/releases/latest"
-        target="_blank"
-        text
-      >
-        <span class="mr-2">Latest Release</span>
-        <v-icon>mdi-open-in-new</v-icon>
-      </v-btn>
     </v-app-bar>
 
     <v-main>
-      <!-- tree view -->
-      <Usage/>
+      <router-view class="view"></router-view>
 
-      <!-- アコーディオン -->
-      <Accordion/>
-
-      <Accordion>
-        <div slot="title">アコーディオン1</div>
-        <div class="js-accordion--body" slot="body">
-          <p>アコーディオン1の中身</p>
-          <p>アコーディオン1の中身</p>
-          <p>アコーディオン1の中身</p>
-        </div>
-      </Accordion>
-
-    <!-- <js-accordion>
-      <div slot="title">アコーディオン2</div>
-      <div class="js-accordion--body" slot="body">
-        <p>アコーディオン2の中身</p>
-        <p>アコーディオン2の中身</p>
-      </div>
-    </js-accordion>
-    <js-accordion>
-      <div slot="title">アコーディオン3</div>
-      <div class="js-accordion--body" slot="body">
-        <p>アコーディオン3の中身</p>
-        <p>アコーディオン3の中身</p>
-      </div>
-    </js-accordion> -->
 
     </v-main>
   </v-app>
 </template>
 
 <script>
-// import HelloWorld from './components/HelloWorld';
-import Usage from './components/Usage';
-import Accordion from './components/Accordion';
 
 export default {
   name: 'App',
 
   components: {
-    Usage,
-    Accordion,
   },
 
   data: () => ({
